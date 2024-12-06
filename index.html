@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- For better compatibility -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Nimbalkar - Full Stack Developer</title>
+    <meta name="author" content="Akshay Nimbalkar">
+    <meta name="description" content="Akshay Nimbalkar is a Full Stack Developer offering web and mobile app development, as well as UI/UX design services.">
+    <meta name="keywords" content="Full Stack Developer, Web Development, App Development, UI/UX Design, Akshay Nimbalkar">
+    <link rel="stylesheet" href="styles.css"> <!-- Renamed for clarity -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Akshay Nimbalkar</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p><strong>Hi,</strong> I am Akshay Nimbalkar</p>
+                <h1>FULL STACK DEVELOPER</h1>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <h2>What I Can Do For You</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="images/web.png" alt="Web Development Icon">
+                    <h3>Web Development</h3>
+                    <p>Building responsive and dynamic websites tailored to your business needs.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/mobile.png" alt="Mobile Development Icon">
+                    <h3>App Development</h3>
+                    <p>Creating user-friendly mobile applications for both Android and iOS platforms.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/uiux.png" alt="UI/UX Design Icon">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and engaging user interfaces to enhance user experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/akshay.jpg" alt="Akshay Nimbalkar">
+                <p>
+                    I'm Akshay Nimbalkar, a passionate Full Stack Developer with expertise in building scalable web and mobile applications. I thrive on solving complex problems and continuously learning new technologies to deliver top-notch solutions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your Message" fixed></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Akshay Nimbalkar. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional: Add JavaScript for interactive hamburger menu -->
+    <script src="script.js"></script>
+</body>
+</html>
